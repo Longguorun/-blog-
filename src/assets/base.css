@@ -1,0 +1,46 @@
+* {
+	-webkit-tap-highlight-color:transparent;
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+*:hover, *:active {
+	-webkit-tap-highlight-color:transparent;
+}
+html, body, #app {
+	height: 100%;
+	overflow: hidden;
+}
+.el-calendar-day {
+  height: 30px !important;
+} 
+.el-calendar__button-group .el-button {
+	padding: 5px;
+}
+.el-calendar__body {
+	padding: 10px;
+	padding-top: 0;
+}
+.calendarBox .el-card__body {
+   padding: 0 !important;
+}
+a:hover {
+	color: red;
+}
+.markdown-body p {
+  margin: 20px 5px !important;
+}
+.v-show-content {
+  padding: 10px 10px 10px 10px !important;
+  width: 100%;
+  box-sizing: padding-box;
+}
+.v-note-wrapper {
+	min-width: 0px !important;
+}
+.el-card__body {
+  padding: 0px 10px;
+}
+.markdown-body img {
+	max-width: 100% !important;
+}
